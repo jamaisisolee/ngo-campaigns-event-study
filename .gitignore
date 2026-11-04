@@ -16,6 +16,15 @@ __pycache__/
 .ipynb_checkpoints/
 .venv/
 venv/
+.analysis_deps/
+
+# ---- Local campaign data and licensed Factiva content ----
+/handoff/
+/sigwatch_data/
+/banks_data_bocconi/
+*.rtf
+/Hackathon copy*.ipynb
+/example_name_cleaning.txt
 
 # ---- macOS ----
 .DS_Store
