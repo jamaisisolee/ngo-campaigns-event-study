@@ -1,0 +1,24 @@
+# Proprietary data (Sigwatch, Datastream, Factiva) - never commit.
+# Everything under DATA/ is ignored except the public files listed at the end.
+DATA/*
+data/
+handoff/
+*.zip
+*.dta
+*.xlsm
+*.xlsx
+*.rtf
+
+# Public data that IS published (ECB exchange rates, Fama-French factors)
+!DATA/banks_data_bocconi/
+DATA/banks_data_bocconi/*
+!DATA/banks_data_bocconi/fx_usd.csv
+!DATA/banks_data_bocconi/Europe_5_Factors_Daily.xlsx
+!DATA/banks_data_bocconi/North_America_5_Factors_Daily.xlsx
+
+# Local working files
+Task6.ipynb
+hackathon_summary*
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
